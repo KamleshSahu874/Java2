@@ -8,8 +8,8 @@ class BuzzNumber {
         int number2 = 17;
         int number3 = 21;
 
-        System.out.println(number1 + " is a Buzz number: " + isBuzzNumber(number1)); // true
-        System.out.println(number2 + " is a Buzz number: " + isBuzzNumber(number2)); // true
-        System.out.println(number3 + " is a Buzz number: " + isBuzzNumber(number3)); // false
+        System.out.println(number1 + " is a Buzz number: " + isBuzzNumber(number1));
+        System.out.println(number2 + " is a Buzz number: " + isBuzzNumber(number2));
+        System.out.println(number3 + " is a Buzz number: " + isBuzzNumber(number3));
     }
 }
