@@ -6,7 +6,10 @@ public class SetMap {
         map.put("apple", 1);
         map.put("banana", 2);
         map.put("orange", 3);
-        System.out.println(map.get("grapes"));
+        //System.out.println(map.get("grapes"));
+        for(String key: map.keySet()) {
+            System.out.println(key);
+        }
     }
 
 }
