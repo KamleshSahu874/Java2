@@ -10,6 +10,7 @@ public class Collections1 {
         arr.add("c");
         arr.add("M");
         arr.add("J");
+        arr.add("y");
         Collections.sort(arr);
         System.out.println(arr);
 
