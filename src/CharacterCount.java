@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class CharacterCount {
     public static void main(String[] args) {
-        String str = "programming";
+        String str = "kamlesh";
         char[] ch = str.toCharArray();
 
         HashMap<Character, Integer> map = new HashMap<>();
