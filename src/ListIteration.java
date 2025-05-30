@@ -14,7 +14,7 @@ public class ListIteration {
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             String item = iterator.next();
-            if(item.startsWith("B")) {
+            if(item.startsWith("C")) {
                 iterator.remove();
             }
             //System.out.println(item);
