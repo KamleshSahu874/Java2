@@ -1,7 +1,7 @@
 import java.util.HashMap;
 public class NonRepeatingChar {
     public static void main(String[] args) {
-        String str = "swiss";
+        String str = "hello";
         char[] ch = str.toCharArray();
 
         HashMap<Character, Integer> map = new HashMap<>();
