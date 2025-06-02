@@ -9,12 +9,9 @@ class Student implements Comparable<Student> {
         this.age = age;
         this.name = name;
     }
-
-
     public String toString() {
         return age + " " + name;
     }
-
     public int compareTo(Student s) {
         return this.age - s.age; // Ascending order
     }
@@ -26,8 +23,7 @@ class Student implements Comparable<Student> {
         list.add(new Student(19, "Birbal"));
         list.add(new Student(21, "Tansen"));
 
-        Collections.sort(list); // Uses compareTo
-
+        Collections.sort(list);
         for (Student s : list) {
             System.out.println(s);
         }
