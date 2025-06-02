@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Student implements Comparable<Student> {
+class Student2 implements Comparable<Student> {
     int age;
     String name;
 
-    public Student(int age, String name) {
+    public Student2(int age, String name) {
         this.age = age;
         this.name = name;
     }
