@@ -1,7 +1,7 @@
 
 import java.util.TreeSet;
 
-public class Collection3 {
+public class Collections3 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 2, 3, 3, 3, 4, 4, 5};
         TreeSet<Integer> uniqueSet = new TreeSet<>();
