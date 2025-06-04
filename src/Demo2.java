@@ -3,9 +3,9 @@ public class Demo2 {
     static class Account {
         private int balance = 1000;
         public synchronized void withdraw(int amount, String threadName) {
-          //  System.out.println(threadName + " is withdrawing ₹" + amount);
+          System.out.println(threadName + " is withdrawing ₹" + amount);
             balance -= amount;
-           // System.out.println(threadName + " completed withdrawal. Current balance: ₹" + balance);
+           System.out.println(threadName + " completed withdrawal. Current balance: ₹" + balance);
         }
 
         public int getBalance() {
