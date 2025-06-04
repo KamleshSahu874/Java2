@@ -31,7 +31,7 @@ public class Demo2 {
             e.printStackTrace();
         }
 
-        // Final balance
+
         System.out.println("Final balance: ₹" + account.getBalance());
     }
 }
