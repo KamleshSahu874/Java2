@@ -10,5 +10,6 @@ public class Demo3 {
         });
         t1.start();
         t2.start();
+
     }
 }
