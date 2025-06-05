@@ -11,7 +11,7 @@ public class Demo1 {
         MyRunnable obj = outer.new MyRunnable();
         Thread t1 = new Thread();
         t1.start();
-        try {
+        try{
             t1.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
