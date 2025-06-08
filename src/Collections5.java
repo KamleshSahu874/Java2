@@ -16,11 +16,11 @@ public class Collections5 {
         hashSet.add("Apple");
         System.out.println("HashSet: " + hashSet);
 
-        // 3. HashMap - key-value pairs, unique keys
+
         Map<Integer, String> hashMap = new HashMap<>();
         hashMap.put(1, "Apple");
         hashMap.put(2, "Banana");
-        hashMap.put(1, "Mango"); // replaces value for key 1
+        hashMap.put(1, "Mango");
         System.out.println("HashMap: " + hashMap);
     }
 }
