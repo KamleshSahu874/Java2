@@ -1,4 +1,5 @@
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class DivisibleBy7 {
@@ -9,7 +10,8 @@ public class DivisibleBy7 {
                 .anyMatch(n -> n % 7 == 0);
 
         if (hasDivisibleBy7) {
-            System.out.println("At least one number is divisible by 7.");
+           System.out.println("At least one number is divisible by 7.");
+
         } else {
             System.out.println("No number is divisible by 7.");
         }
