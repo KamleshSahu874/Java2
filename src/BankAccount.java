@@ -10,12 +10,10 @@ class Transaction {
         this.amount = amount;
         this.timestamp = new Date();
     }
-
     public String toString() {
         return timestamp + " - " + type + ": ₹" + amount;
     }
 }
-
 class Account {
     String name;
     long accountNumber;
