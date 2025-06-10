@@ -36,7 +36,6 @@ class Account {
             System.out.println("Invalid deposit amount.");
         }
     }
-
     void withdraw(double amount) {
         if (amount <= 0) {
             System.out.println("Invalid withdrawal amount.");
@@ -52,7 +51,6 @@ class Account {
     void checkBalance() {
         System.out.println("Current Balance: ₹" + balance);
     }
-
     void showTransactionHistory() {
         if (transactionHistory.isEmpty()) {
             System.out.println("No transactions found.");
