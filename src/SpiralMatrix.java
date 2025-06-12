@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class SpiralMatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter a perfect square number (like 9, 16, 25): ");
         int input = sc.nextInt();
 
@@ -32,8 +31,6 @@ public class SpiralMatrix {
             for (int i = bottom; i >= top; i--) matrix[i][left] = num++;
             left++;
         }
-
-        // Print the matrix
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.printf("%3d", matrix[i][j]); // formatted spacing
