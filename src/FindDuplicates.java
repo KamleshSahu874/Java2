@@ -14,7 +14,6 @@ public class FindDuplicates {
             arr[i] = sc.nextInt();
         }
 
-
         Set<Integer> seen = new HashSet<>();
         boolean foundDuplicate = false;
 
@@ -27,7 +26,6 @@ public class FindDuplicates {
                 seen.add(num);
             }
         }
-
         if (!foundDuplicate) {
             System.out.println("No duplicates found.");
         }
