@@ -14,7 +14,7 @@ public class FindDuplicates {
             arr[i] = sc.nextInt();
         }
 
-        // Use HashSet to track seen numbers
+
         Set<Integer> seen = new HashSet<>();
         boolean foundDuplicate = false;
 
