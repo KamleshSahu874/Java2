@@ -22,8 +22,6 @@ public class MatrixMultiplication {
                 A[i][j] = sc.nextInt();
             }
         }
-
-        // Input Matrix B
         System.out.println("Enter elements of Matrix B:");
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < p; j++) {
