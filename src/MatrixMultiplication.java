@@ -29,7 +29,6 @@ public class MatrixMultiplication {
             }
         }
 
-        // Matrix Multiplication
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < p; j++) {
                 result[i][j] = 0;
@@ -39,7 +38,6 @@ public class MatrixMultiplication {
             }
         }
 
-        // Output Result
         System.out.println("Resultant Matrix:");
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < p; j++) {
