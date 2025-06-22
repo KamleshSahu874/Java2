@@ -13,7 +13,6 @@ public class PalindromeCheck {
             reversed += str.charAt(i);
         }
 
-        // Compare original and reversed
         if(str.equals(reversed)) {
             System.out.println("The string is a palindrome.");
         } else {
