@@ -12,14 +12,14 @@ public class SnakePattern {
             for (int j = 0; j < cols; j++)
                 matrix[i][j] = sc.nextInt();
 
-        // Snake pattern printing
+
         for (int i = 0; i < rows; i++) {
             if (i % 2 == 0) {
                 // Left to right
                 for (int j = 0; j < cols; j++)
                     System.out.print(matrix[i][j] + " ");
             } else {
-                // Right to left
+
                 for (int j = cols - 1; j >= 0; j--)
                     System.out.print(matrix[i][j] + " ");
             }
