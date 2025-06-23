@@ -4,7 +4,6 @@ public class SnakePattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input: number of rows and columns
         int rows = sc.nextInt();
         int cols = sc.nextInt();
 
