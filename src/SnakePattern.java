@@ -15,7 +15,7 @@ public class SnakePattern {
 
         for (int i = 0; i < rows; i++) {
             if (i % 2 == 0) {
-                // Left to right
+
                 for (int j = 0; j < cols; j++)
                     System.out.print(matrix[i][j] + " ");
             } else {
