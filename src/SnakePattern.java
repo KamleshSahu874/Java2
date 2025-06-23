@@ -7,7 +7,6 @@ public class SnakePattern {
         int rows = sc.nextInt();
         int cols = sc.nextInt();
 
-        // Input: matrix elements
         int[][] matrix = new int[rows][cols];
         for (int i = 0; i < rows; i++)
             for (int j = 0; j < cols; j++)
