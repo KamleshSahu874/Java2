@@ -12,7 +12,6 @@ public class SnakePattern {
             for (int j = 0; j < cols; j++)
                 matrix[i][j] = sc.nextInt();
 
-
         for (int i = 0; i < rows; i++) {
             if (i % 2 == 0) {
 
