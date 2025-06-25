@@ -9,7 +9,7 @@ public class PascalTriangle {
 
             for (int col = 0; col <= row; col++) {
                 if (col == 0 || col == row) {
-                    currentRow.add(1);  // First and last elements are always 1
+                    currentRow.add(1);
                 } else {
                     int aboveLeft = triangle.get(row - 1).get(col - 1);
                     int aboveRight = triangle.get(row - 1).get(col);
@@ -19,7 +19,6 @@ public class PascalTriangle {
 
             triangle.add(currentRow);
         }
-
         return triangle;
     }
 
