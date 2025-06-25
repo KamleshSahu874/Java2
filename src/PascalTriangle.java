@@ -25,7 +25,6 @@ public class PascalTriangle {
     public static void main(String[] args) {
         int numRows = 5;
         List<List<Integer>> result = generate(numRows);
-
         for (List<Integer> row : result) {
             System.out.println(row);
         }
