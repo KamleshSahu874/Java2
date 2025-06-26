@@ -5,12 +5,10 @@ public class RotateArray {
         int n = arr.length;
         int last = arr[n - 1];
 
-        // Shift elements to the right
         for (int i = n - 1; i > 0; i--) {
             arr[i] = arr[i - 1];
         }
 
-        // Place the last element at the first position
         arr[0] = last;
     }
 
