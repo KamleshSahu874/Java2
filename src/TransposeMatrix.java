@@ -1,4 +1,3 @@
-
 public class TransposeMatrix {
     public static int[][] transpose(int[][] matrix) {
         int rows = matrix.length;
