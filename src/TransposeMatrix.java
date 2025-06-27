@@ -11,7 +11,6 @@ public class TransposeMatrix {
                 transposed[j][i] = matrix[i][j];
             }
         }
-
         return transposed;
     }
 
