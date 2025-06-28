@@ -21,7 +21,6 @@ public class BoundaryTraversal {
             for (int i = cols - 2; i >= 0; i--)
                 System.out.print(matrix[rows - 1][i] + " ");
 
-            // 4. Left column
             for (int i = rows - 2; i >= 1; i--)
                 System.out.print(matrix[i][0] + " ");
         }
