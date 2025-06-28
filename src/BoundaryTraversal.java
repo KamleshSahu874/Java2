@@ -1,23 +1,23 @@
 public class BoundaryTraversal {
     public static void printBoundary(int[][] matrix, int rows, int cols) {
         if (rows == 1) {
-            // Only one row
+
             for (int i = 0; i < cols; i++)
                 System.out.print(matrix[0][i] + " ");
         } else if (cols == 1) {
-            // Only one column
+
             for (int i = 0; i < rows; i++)
                 System.out.print(matrix[i][0] + " ");
         } else {
-            // 1. Top row
+
             for (int i = 0; i < cols; i++)
                 System.out.print(matrix[0][i] + " ");
 
-            // 2. Right column
+
             for (int i = 1; i < rows; i++)
                 System.out.print(matrix[i][cols - 1] + " ");
 
-            // 3. Bottom row
+
             for (int i = cols - 2; i >= 0; i--)
                 System.out.print(matrix[rows - 1][i] + " ");
 
