@@ -41,7 +41,6 @@ public class Median {
         }
         return low;
     }
-
     public static void main(String[] args) {
         int[][] matrix = {
                 {1, 3, 5},
