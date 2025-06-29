@@ -6,7 +6,6 @@ public class Median {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
-        // Find global min and max
         for (int i = 0; i < R; i++) {
             min = Math.min(min, matrix[i][0]);
             max = Math.max(max, matrix[i][C - 1]);
@@ -17,7 +16,6 @@ public class Median {
         while (min < max) {
             int mid = min + (max - min) / 2;
 
-            // Count number of elements <= mid
             int count = 0;
             for (int i = 0; i < R; i++) {
                 count += countLessEqual(matrix[i], mid);
@@ -32,7 +30,7 @@ public class Median {
         return min;
     }
 
-    // Binary search in row to count elements <= target
+
     private static int countLessEqual(int[] row, int target) {
         int low = 0, high = row.length;
         while (low < high) {
