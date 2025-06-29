@@ -30,7 +30,6 @@ public class Median {
         return min;
     }
 
-
     private static int countLessEqual(int[] row, int target) {
         int low = 0, high = row.length;
         while (low < high) {
