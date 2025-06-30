@@ -32,7 +32,6 @@ public class Intersection {
         int[] arr2 = {2, 2, 3, 5, 6};
 
         List<Integer> intersection = findIntersection(arr1, arr2);
-
         System.out.println("Intersection: " + intersection);
     }
 }
