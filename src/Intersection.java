@@ -8,9 +8,7 @@ public class Intersection {
         List<Integer> result = new ArrayList<>();
 
         while (i < n && j < m) {
-            // Skip duplicates in arr1
             while (i > 0 && i < n && arr1[i] == arr1[i - 1]) i++;
-            // Skip duplicates in arr2
             while (j > 0 && j < m && arr2[j] == arr2[j - 1]) j++;
 
             if (i < n && j < m) {
