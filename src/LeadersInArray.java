@@ -6,7 +6,7 @@ public class LeadersInArray {
         System.out.print("Leaders: ");
 
         int maxFromRight = arr[n - 1];
-        System.out.print(maxFromRight + " "); // Rightmost element is always a leader
+        System.out.print(maxFromRight + " ");
 
         // Traverse from second last to first
         for (int i = n - 2; i >= 0; i--) {
