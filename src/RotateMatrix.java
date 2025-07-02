@@ -8,7 +8,6 @@ public class RotateMatrix {
 
         rotate90Clockwise(matrix);
 
-        // Print rotated matrix
         for (int[] row : matrix) {
             for (int val : row) {
                 System.out.print(val + " ");
@@ -20,7 +19,6 @@ public class RotateMatrix {
     public static void rotate90Clockwise(int[][] matrix) {
         int n = matrix.length;
 
-        // Step 1: Transpose the matrix
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
                 int temp = matrix[i][j];
