@@ -9,11 +9,11 @@ public class SquarePattern {
         int n = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
-            // Inner loop for columns
+
             for (int j = 0; j < n; j++) {
                 System.out.print("*");
             }
-            System.out.println(); // Move to the next line
+            System.out.println();
         }
 
         sc.close();
