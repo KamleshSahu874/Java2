@@ -8,7 +8,6 @@ public class SquarePattern {
         System.out.print("Enter the size of the square: ");
         int n = sc.nextInt();
 
-        // Outer loop for rows
         for (int i = 0; i < n; i++) {
             // Inner loop for columns
             for (int j = 0; j < n; j++) {
