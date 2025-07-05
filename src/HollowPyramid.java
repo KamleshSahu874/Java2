@@ -8,12 +8,11 @@ public class HollowPyramid {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            // Print leading spaces
+
             for (int j = i; j < n; j++) {
                 System.out.print(" ");
             }
 
-            // Print stars and spaces in row
             for (int j = 1; j <= 2 * i - 1; j++) {
                 // Print * at borders or on last row
                 if (j == 1 || j == 2 * i - 1 || i == n) {
