@@ -14,7 +14,7 @@ public class HollowPyramid {
             }
 
             for (int j = 1; j <= 2 * i - 1; j++) {
-                // Print * at borders or on last row
+
                 if (j == 1 || j == 2 * i - 1 || i == n) {
                     System.out.print("*");
                 } else {
