@@ -19,7 +19,6 @@ public class InvertedHollowPyramid {
                     System.out.print(" ");
                 }
             }
-
             System.out.println();
         }
 
