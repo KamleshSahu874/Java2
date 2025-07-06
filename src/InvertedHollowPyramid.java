@@ -8,12 +8,10 @@ public class InvertedHollowPyramid {
         int n = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
-            // Print leading spaces
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
 
-            // Print stars and spaces in row
             for (int j = 0; j < (2 * (n - i) - 1); j++) {
                 if (j == 0 || j == (2 * (n - i) - 2) || i == 0) {
                     System.out.print("*");
