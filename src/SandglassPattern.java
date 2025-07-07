@@ -26,14 +26,11 @@ public class SandglassPattern {
             System.out.println();
         }
 
-        // Normal Hollow Pyramid
         for (int i = 1; i < n; i++) {
-            // Leading spaces
-            for (int j = 0; j < n - i - 0; j++) {
+            for (int j = 0; j < n - i ; j++) {
                 System.out.print(" ");
             }
 
-            // Stars and spaces
             for (int j = 0; j < 2 * i + 1; j++) {
                 if (j == 0 || j == 2 * i || i == n - 1) {
                     System.out.print("*");
