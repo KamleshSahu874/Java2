@@ -36,7 +36,6 @@ public class SandglassPattern {
 
             System.out.println();
         }
-
         sc.close();
     }
 }
