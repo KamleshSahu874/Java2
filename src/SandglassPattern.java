@@ -25,7 +25,6 @@ public class SandglassPattern {
             for (int j = 0; j < n - i ; j++) {
                 System.out.print(" ");
             }
-
             for (int j = 0; j < 2 * i + 1; j++) {
                 if (j == 0 || j == 2 * i || i == n - 1) {
                     System.out.print("*");
