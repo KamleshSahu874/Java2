@@ -18,7 +18,6 @@ public class SandglassPattern {
                     System.out.print(" ");
                 }
             }
-
             System.out.println();
         }
 
