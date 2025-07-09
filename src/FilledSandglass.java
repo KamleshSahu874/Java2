@@ -16,7 +16,7 @@ public class FilledSandglass {
             int start = i + 1;
             int end = 2 * (n - i) - 1;
 
-            // Print numbers
+
             for (int j = 0; j < end; j++) {
                 System.out.print(start + j);
             }
@@ -24,9 +24,9 @@ public class FilledSandglass {
             System.out.println();
         }
 
-        // Lower half (Normal Pyramid)
+
         for (int i = 1; i <= n; i++) {
-            // Print leading spaces
+
             for (int j = 0; j < n - i; j++) {
                 System.out.print(" ");
             }
