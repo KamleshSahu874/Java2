@@ -7,9 +7,8 @@ public class FilledSandglass {
         System.out.print("Enter number of rows (half height): ");
         int n = sc.nextInt();
 
-        // Upper half (Inverted Pyramid)
         for (int i = 0; i < n; i++) {
-            // Print leading spaces
+
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
