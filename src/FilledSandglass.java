@@ -16,7 +16,6 @@ public class FilledSandglass {
             int start = i + 1;
             int end = 2 * (n - i) - 1;
 
-
             for (int j = 0; j < end; j++) {
                 System.out.print(start + j);
             }
