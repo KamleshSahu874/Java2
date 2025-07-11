@@ -35,7 +35,6 @@ public class FilledSandglass {
             }
             System.out.println();
         }
-
         sc.close();
     }
 }
