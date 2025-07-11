@@ -33,7 +33,6 @@ public class FilledSandglass {
             for (int j = 0; j < end; j++) {
                 System.out.print(start + j);
             }
-
             System.out.println();
         }
 
