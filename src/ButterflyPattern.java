@@ -7,14 +7,14 @@ public class ButterflyPattern {
         System.out.print("Enter number of rows: ");
         int n = sc.nextInt();
 
-        // Upper Half
+
         for (int i = 1; i <= n; i++) {
             // Left stars
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
 
-            // Spaces
+
             for (int j = 1; j <= 2 * (n - i); j++) {
                 System.out.print(" ");
             }
