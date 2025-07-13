@@ -14,6 +14,7 @@ public class ZigZag {
                     System.out.print(" ");
                 }
             }
+
             System.out.println();
         }
         sc.close();
