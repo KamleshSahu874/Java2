@@ -18,7 +18,7 @@ public class ButterflyPattern {
                 System.out.print(" ");
             }
 
-            // Right stars
+
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
