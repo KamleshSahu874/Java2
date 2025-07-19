@@ -17,7 +17,6 @@ public class DecimalToBinary {
         }
 
         System.out.println("Binary representation of " + decimal + " is: " + binary);
-
         sc.close();
     }
 }
