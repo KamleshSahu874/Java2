@@ -12,7 +12,7 @@ public class DecimalToBinary {
         int n = decimal;
         while (n > 0) {
             int remainder = n % 2;
-            binary = remainder + binary; // prepend remainder
+            binary = remainder + binary;
             n = n / 2;
         }
 
