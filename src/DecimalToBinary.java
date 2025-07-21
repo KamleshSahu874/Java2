@@ -7,7 +7,6 @@ public class DecimalToBinary {
         System.out.print("Enter a decimal number: ");
         int decimal = sc.nextInt();
         String binary = "";
-
         int n = decimal;
         while (n > 0) {
             int remainder = n % 2;
