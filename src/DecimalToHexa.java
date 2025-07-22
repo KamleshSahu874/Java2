@@ -14,7 +14,7 @@ public class DecimalToHexa {
         int n = decimal;
         while (n > 0) {
             int remainder = n % 16;
-            hex = hexChars[remainder] + hex; // prepend character
+            hex = hexChars[remainder] + hex;
             n = n / 16;
         }
 
