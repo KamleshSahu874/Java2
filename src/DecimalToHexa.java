@@ -17,6 +17,7 @@ public class DecimalToHexa {
             hex = hexChars[remainder] + hex;
             n = n / 16;
         }
+
         System.out.println("Hexadecimal of " + decimal + " is: " + hex);
 
         sc.close();
