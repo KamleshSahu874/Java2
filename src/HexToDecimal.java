@@ -7,7 +7,7 @@ public class HexToDecimal {
         System.out.print("Enter hexadecimal number: ");
         String hex = sc.nextLine();
 
-        // Co
+
         int decimal = Integer.parseInt(hex, 16);
 
         System.out.println("Decimal of " + hex + " is: " + decimal);
