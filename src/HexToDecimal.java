@@ -11,6 +11,7 @@ public class HexToDecimal {
 
         System.out.println("Decimal of " + hex + " is: " + decimal);
 
+
         sc.close();
     }
 }
