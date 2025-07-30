@@ -7,6 +7,6 @@ public class AnimateName {
             Thread.sleep(200); // delay in milliseconds (200ms = 0.2 sec)
         }
 
-        System.out.println(); // move to next line after animation
+        System.out.println(); //
     }
 }
