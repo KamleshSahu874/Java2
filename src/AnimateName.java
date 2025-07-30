@@ -4,7 +4,7 @@ public class AnimateName {
 
         for (int i = 0; i < name.length(); i++) {
             System.out.print(name.charAt(i));
-            Thread.sleep(200); // delay in milliseconds (200ms = 0.2 sec)
+            Thread.sleep(200); //
         }
 
         System.out.println(); //
