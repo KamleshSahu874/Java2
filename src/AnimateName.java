@@ -7,5 +7,6 @@ public class AnimateName {
             Thread.sleep(200);
         }
         System.out.println();
+
     }
 }
