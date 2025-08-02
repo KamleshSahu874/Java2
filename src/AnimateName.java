@@ -9,5 +9,6 @@ public class AnimateName {
         }
         System.out.println();
 
+
     }
 }
