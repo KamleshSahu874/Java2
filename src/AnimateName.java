@@ -5,7 +5,6 @@ public class AnimateName {
         for (int i = 0; i < name.length(); i++) {
             System.out.print(name.charAt(i));
 
-
             Thread.sleep(200);
         }
         System.out.println();
