@@ -9,7 +9,7 @@ public class BlinkingName {
             Thread.sleep(400);
         }
 
-        // Finally show the name permanently
+
         System.out.print("\r" + name);
     }
 }
