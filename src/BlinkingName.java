@@ -10,7 +10,6 @@ public class BlinkingName {
         }
 
 
-
         System.out.print("\r" + name);
 
     }
