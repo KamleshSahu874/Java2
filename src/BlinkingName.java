@@ -9,7 +9,6 @@ public class BlinkingName {
             Thread.sleep(400);
         }
 
-
         System.out.print("\r" + name);
 
     }
