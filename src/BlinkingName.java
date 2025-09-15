@@ -8,7 +8,6 @@ public class BlinkingName {
             System.out.print("\r" + " ".repeat(name.length()));
             Thread.sleep(400);
         }
-
         System.out.print("\r" + name);
     }
 
