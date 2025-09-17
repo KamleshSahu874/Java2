@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class ListIteration1 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Cherry");
+        list.add("Date");
+        list.add("Elderberry");
+        list.add("Fig");
+        list.add("Grape");
+
+        ListIterator<String> iterator = list.listIterator();
+
+        while (iterator.hasNext()) {
+            String item = iterator.next();
+            System.out.println(item);
+        }
+
+        System.out.println("alag hu mai");
+
+        while (iterator.hasPrevious()) {
+            String previousItem = iterator.previous();
+            System.out.println(previousItem);
+        }
+
+       // System.out.println("End of List Iteration");
+    }
+}
