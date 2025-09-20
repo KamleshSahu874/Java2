@@ -12,6 +12,7 @@ public class DecimalToBinary {
             int remainder = n % 2;
             binary = remainder + binary;
             n = n / 2;
+
         }
         System.out.println("Binary representation of " + decimal + " is: " + binary);
         sc.close();
