@@ -14,6 +14,7 @@ public class DecimalToBinary {
             n = n / 2;
 
         }
+
         System.out.println("Binary representation of " + decimal + " is: " + binary);
         sc.close();
     }
